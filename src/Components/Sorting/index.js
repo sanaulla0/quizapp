@@ -179,10 +179,7 @@ useEffect(() => {
        localStorage.removeItem('flaggedQuestions');
    }
  }, [showScore]);
- useEffect(() => {
-		
-  setSelected(Array(questions[currentQuestion].answerOptions.length).fill(false));
-}, [currentQuestion]);
+ 
 
  const Next = ()=>{
   if(currentQuestion < questions.length-1){
