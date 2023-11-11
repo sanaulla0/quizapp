@@ -1,0 +1,31 @@
+
+.chk{
+ width: 5rem;
+ height: 5rem;
+font-size: small;
+  margin-top: 8rem;
+  margin-right: 5rem;
+  
+}
+.f1{
+display: flex;
+flex-direction: row;
+margin-top: 10rem;
+justify-content: space-between;
+
+}
+  
+.set{
+ display: flex;
+ flex-direction: row;
+ margin-top: 2rem;
+ justify-content: space-between;
+ width: 3rem;
+ height: 3rem;
+font-size: small;
+  
+}
+.do{
+   width: 2rem;
+   height: 2rem;
+}

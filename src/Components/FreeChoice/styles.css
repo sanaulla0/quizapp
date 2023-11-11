@@ -1,0 +1,105 @@
+
+.app1{
+ background-color: rgb(243, 242, 242);
+ width: 80rem;
+ min-height: 500px;
+ height: min-content;
+ border-radius: 15px;
+ padding: 20px;
+ box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .app1{
+         width: 70rem;
+         min-height: 400px;
+         padding: 15px;
+  }
+}
+@media only screen and (max-width : 1080px){
+      .app1{
+         width: 50rem;
+         
+         min-height: 490px;
+         padding: 10px;
+      }
+}
+@media only screen and (max-width : 930px){
+      .app1{
+         width: 45rem;
+         min-height: 450px;
+         padding: 8px;
+      }
+}
+@media only screen and (max-width : 800px){
+      .app1{
+         width: 35rem;
+         min-height: 350px;
+         padding: 5px;
+      }
+}
+@media only screen and (max-width : 430px){
+      .app1{
+         width: 20rem;
+         min-height: 350px;
+         padding: 5px;
+      }
+
+       .h2{
+         font-size: small;
+       }
+
+}
+@media only screen and (max-width : 380px){
+      .app1{
+         width: 15rem;
+         min-height: 350px;
+         padding: 5px;
+      }
+
+       .h2{
+         font-size: small;
+       }
+
+}
+
+
+
+
+
+
+
+.div1{
+ width: 100%;
+ display: flex;
+flex-wrap: wrap; 
+justify-content: space-around;
+
+}
+.text{
+  
+   text-align: left;
+}
+.input{
+ margin-left: 4rem;
+ width: 20%;
+ padding: 1rem;
+ margin-top: 0.5rem;
+ display:  flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+.check1{
+ width: 2rem;
+ height: 3rem;
+  justify-content: center;
+  padding: 1rem;
+}
+.flag1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
