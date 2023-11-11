@@ -160,7 +160,7 @@ const unflagQuestion = (questionIndex) => {
 		}
 	}, [showScore]);
 	useEffect(() => {
-		// Reset selected state when currentQuestion changes
+		
 		setSelected(Array(questions[currentQuestion].answerOptions.length).fill(false));
 }, [currentQuestion]);
 

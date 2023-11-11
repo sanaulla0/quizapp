@@ -219,7 +219,10 @@ const prev = ()=>{
     }
 
 }
-
+useEffect(() => {
+		
+  setSelected(Array(questions[currentQuestion].answerOptions.length).fill(false));
+}, [currentQuestion]);
 
   return (
     <div className='app'>
